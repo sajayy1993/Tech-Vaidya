@@ -1,0 +1,54 @@
+.com-Doc{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 221, 221);
+}
+
+.comDoc-main{
+    margin-top: 20px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      width: 55%;
+      padding: 25px 0px;
+      border-radius: 10px;
+      background-color: rgb(179, 134, 221);
+}
+
+.comdoc-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img0-container img{
+    width: 600px;
+}
+
+.btn-container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+
+.btn-container button{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    background-color: #ffff;
+    color: darkmagenta;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; ;
+}

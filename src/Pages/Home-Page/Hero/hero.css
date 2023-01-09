@@ -1,0 +1,42 @@
+.Section_hero{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Subcontainer{
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(268, 62%, 77%);
+    text-align: center;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+.sick_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection_title{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.subsection_title img{
+    width: 80px;
+    height: 150px;
+}
+
+.subsection_title .sb_titlespan{
+    color: #4a2ae9;
+    font-size: 24px;
+    text-transform: capitalize;
+}

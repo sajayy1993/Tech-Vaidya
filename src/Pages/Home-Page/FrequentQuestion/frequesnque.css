@@ -1,0 +1,51 @@
+.frequent-section{
+    width: 100%;
+    margin-top: 40px;
+}
+.freque-card{
+    margin-top: 40px;
+}
+
+.frequent-main{
+    border-radius: 20px;
+    background-color:#FFFFFF;
+    margin: 5px 100px ;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.frequent-section h2 {
+    color: #222121;
+    margin-left: 10px;
+}
+.freQues-line{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.freQues-line button {
+    margin-left: 400px;
+width: 50px;
+height: 50px;
+background-color: rgb(185, 84, 185);
+border: none;
+outline: none;
+color: #ffff;
+font-size: 18px;
+font-weight: 800;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ques-content{
+    width: 1200px;
+font-size: 16px;
+color: #535050;
+padding: 5px 25px;
+}
+
+.que-btn{
+    margin-right: 50px;
+}

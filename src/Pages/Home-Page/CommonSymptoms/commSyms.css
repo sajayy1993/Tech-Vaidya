@@ -1,0 +1,39 @@
+
+.Comcontianer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Comcontianer h2 {
+    color: #222121;
+    margin-left: 10px;
+}
+
+
+.Comcontianer p{
+    font-size: 18px;
+    color: #333333;
+    margin-left: 10px;
+    font-weight: 600;
+    }
+    
+   .com_main{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 20px;
+   }
+.comcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .comcard img{
+width: 70px;
+height: 100px;
+cursor: pointer;
+   }
