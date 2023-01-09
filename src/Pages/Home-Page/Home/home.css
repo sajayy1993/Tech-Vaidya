@@ -1,0 +1,157 @@
+.Section{
+    padding: 50px 0px;
+    background-color: #e4e2f5;
+}
+.helath-head{
+    color: #6f55f2;
+}
+
+.hero_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+   margin-top: 40px;
+}
+.box-img{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-img img{
+    margin-top: -150px;
+    height: 500px;
+    width: 350px ;
+
+  
+}
+.hero_content .hero-heding{
+font-size: 2.5rem;
+padding-right: 50px;
+line-height: 60px;
+margin-bottom: 15px;
+color:#e06198;
+}
+
+.hero_content .subhero-heding{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero_btn{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+.hero_btn button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #6f55f2;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.box-01{
+width: 400px;
+height: 400px;
+border-radius: 100%;
+border: 25px solid  rgba(141,141,235,1);
+}
+.box-02{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 25px solid #b5a9f3;
+    }
+    .box-03{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        border: 25px solid  #d3cef2;
+        }
+        .hero_img-wrapper{
+            position: relative;
+        }
+    
+.heart_rate{
+position: absolute;
+top: 40%;
+left: -15%;
+z-index: 10;
+box-shadow: -3px 3px 8px -1px #d3cef2;
+text-align: center;
+background-color: #fff;
+border-radius: 7px ;
+padding: 15px 10px;
+}
+.heart_rate h5{
+font-size: .8rem;
+}
+
+.heart_rate span{
+    width: 30px;
+    height: 25px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3cef2;
+    color: #d7337a;
+    padding: 3px;
+}
+
+.doctor_location{
+    position: absolute;
+    top: -5%;
+    right: -3%;
+    z-index: 10;
+    box-shadow: -3px 3px 8px -1px #d3cef2;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 7px ;
+    padding: 15px 10px;
+    }
+    
+    .doctor_location span{
+        width: 30px;
+        height: 25px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #d3cef2;
+        color: #d7337a;
+        padding: 3px;
+    }
+   .online_chat{
+        position: absolute;
+        top: 93%;
+        right: 10%;
+        z-index: 10;
+        box-shadow: -3px 3px 8px -1px #d3cef2;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 7px ;
+        padding: 15px 10px;
+        }
+        .online_chat span{
+            width: 30px;
+            height: 25px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d3cef2;
+            color: #d7337a;
+            padding: 3px;
+        }
+
+        
