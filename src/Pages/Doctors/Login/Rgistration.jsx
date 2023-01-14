@@ -2,6 +2,8 @@ import React from 'react'
 import './registration.css'
 import DoctorRegis from '../../../Assets/img/doctorRegisR.png'
 import { Link, useNavigate } from 'react-router-dom'
+import Navbar from '../../../Common/Navbar/Navbar'
+import Footer from '../../../Common/Footer/Footer'
 
 const Rgistration = () => {
 const navigate =useNavigate();
@@ -12,6 +14,7 @@ const navigate =useNavigate();
 
   return (
     <>
+    <Navbar />
 <div className='regis-continer'>
 <div className='Docregis-head'>
 <p>Doctor's Registration</p>
@@ -51,6 +54,7 @@ const navigate =useNavigate();
   </div>
   <Link to='/login_doc'>If you are already Registered user please Login (Click Here)</Link>
    </div>
+   <Footer/>
     </>
    
   )

@@ -1,0 +1,41 @@
+.widget{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47) ;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.widget-top .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.widget-bottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.widget-bottom .Count{
+    font-size: 18px;
+    font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+
+}
+.widget-bottom .Count .icon{
+    color: green;
+    margin-left: 50px;
+}
+
+.widget-bottom .link{
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}

@@ -1,0 +1,232 @@
+.docpro-container{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+}
+
+.docpro-main{
+    margin-top: 55px;
+    width: 1024px;
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.docpro-main p{
+    text-align: center;
+    margin-top: 20px ;
+    font-size: 24PX;
+    font-weight: 400;
+    color: rgb(73, 72, 72);
+}
+.docpro-main .box-page{
+    width: 900px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.docpro-personal-content {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 50px;
+   background-color: aliceblue;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile-content{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.profile-content .pro-name{
+ height: 280px; 
+ padding: 10px;
+}
+
+.profile-content .pro-name .doctor-namepro{
+    display: flex;
+    height: 280px; 
+flex-direction: column;
+justify-content: space-evenly;
+
+
+}
+.profile-content .pro-namecontent{
+    height: 280px; 
+    padding: 17px;
+}
+.profile-content .pro-namecontent .doctor-name{
+    display: flex;
+    height: 280px; 
+flex-direction: column;
+justify-content: space-evenly;
+color: purple;
+font-size: 18px;
+
+}
+   
+.profile-img{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-img img{
+    width: 250px;
+    height: 250px;
+    border: 1.5px solid purple;
+    border-radius: 20px;
+}
+.profile-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.profile-btn button{
+ border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+    font-weight: 400;
+    background-color: #ffff;
+    color: darkmagenta;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; ;
+}
+
+.profile-btn button:hover{
+    background-color: darkmagenta;
+    color:#ffff ;
+}
+.regis-lang{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.regis-lang img{
+    width: 50px;
+}
+.regis-lang.docpro-regis{
+ display: flex;
+ flex-direction: column;
+}
+
+.regis-lang  h4{
+font-size: 14px;
+}
+
+.regis-lang  p{
+    font-size: 16px;
+}
+
+.docpro-about{
+    width: 95%;
+ margin: 15px 25px;
+}
+.docpro-about h3{
+    font-size: 16px;
+    color: rgb(88, 87, 87);
+}
+
+.docpro-about .about-content{
+    display: flex;
+border: 1.8px solid purple;
+}
+.docpro-about .about-content p{
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.doc-awards{
+    margin-left: 25px;
+}
+
+.doc-awards h4{
+    font-size: 16px;
+    color: rgb(88, 87, 87);
+}
+.doc-awards li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    color:rgb(73, 72, 72);
+}
+.doc-services{
+    margin-left: 25px;
+}
+
+.doc-services h4{
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(88, 87, 87);
+}
+
+.doc-services li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    color:rgb(73, 72, 72)
+}
+
+.timings{
+    margin-left: 25px;
+    padding: auto;
+}
+
+.timings h3{
+    padding: 10px;
+    color: rgb(88, 87, 87);
+    font-size: 20px;
+    text-align: center;
+}
+
+.docpro-timing{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.docpro-timing .online-timing{
+    display: flex;
+    gap: 10px;
+}
+
+.online-timing .Doc-day li{
+    color: purple;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.online-timing .doc-times li{
+    color: rgb(102, 98, 98);
+    font-size: 15px;
+}
+
+.docpro-timing li{
+    list-style: none;
+    text-decoration: none;
+}

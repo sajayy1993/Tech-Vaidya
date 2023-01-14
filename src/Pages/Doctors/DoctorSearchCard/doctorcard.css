@@ -1,0 +1,212 @@
+.cardcontainer{
+width: 100%;
+height: 130vh;
+display: flex;
+align-items: center;
+
+}
+
+.cardmain-container{
+    padding: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardinputs{
+    width: 80%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(185, 85, 185);
+}
+.cardinput_serach .searchicon{
+    color: rgb(87, 85, 85);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(223, 217, 217);
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cardinput_serach{
+    margin-top: 50px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color:#FFFF;
+    border-radius: 40px;
+
+}
+.cardinput_serach input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(66, 65, 65);
+}
+
+.cardspan{
+    width: 15%;
+    height: 40px;
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.cardspan .cardsearchspecial{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(66, 65, 65); 
+    cursor: pointer;
+}
+
+.cardspan .options{
+    margin-top: 8px;
+    width: 205px;
+    background-color: #FFFFFF;
+    color: rgb(66, 65, 65);
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 2px;
+    z-index: 999 ;
+    position: absolute;
+}
+
+.cardspan .options p{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.cardspan .options p:hover{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.Doccard-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Doccard-main .side-bar{
+    width: 250px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #FFFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid gray;
+
+} 
+
+.right-sidebar{
+    flex: 8;
+    margin: 0px 50px;
+}
+.right-sidebar .feecard{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid gray;
+
+}
+
+.right-sidebar .feecard img{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 1.5px solid purple;
+    border-radius: 10px;
+}
+
+.feecard-Lcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.feecard-Lcontent h5{
+    font-size: 14px;
+    color: rgb(66, 64, 64);
+}
+
+.feecard-Lcontent p{
+    font-size: 13px;
+    font-weight: 600;
+    color: purple;
+
+}
+
+.rating-L .checked{
+    color: purple;
+}
+
+.rating-L .not-checked{
+color: gray;
+}
+
+.doc-fees{
+    height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.doc-fees h4{
+font-size: 18px;
+color: rgb(61, 146, 61);
+cursor: pointer;
+}
+
+.doc-fees h4:hover{
+    color: purple;
+}
+
+.doc-fees button{
+    width: 170px;
+    padding: 10px;
+    background-color:#FFFF;
+    outline: none;
+    border: 1.5px solid purple;
+    color: purple;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.doc-fees button:hover{
+    background-color:purple ;
+    color: #FFFF;
+    border: 1.5px solid #FFFF;
+}

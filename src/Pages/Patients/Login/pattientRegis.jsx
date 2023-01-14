@@ -2,6 +2,8 @@ import React from 'react'
 import './patientregis.css'
 import PatRegis from '../../../Assets/img/patient556.png'
 import { Link, useNavigate } from 'react-router-dom'
+import Navbar from '../../../Common/Navbar/Navbar'
+import Footer from '../../../Common/Footer/Footer'
 
 const PattientRegis = () => {
  
@@ -14,6 +16,7 @@ const PattientRegis = () => {
 
   return (
     <>
+    <Navbar />
     <div className='regis-continer'>
     <div className='Docregis-head'>
     <p>Patient's Registration</p>
@@ -53,6 +56,7 @@ const PattientRegis = () => {
       </div>
       <Link to='/login_patient'>If you are already Registered user please Login (Click Here)</Link>
        </div>
+       <Footer/>
         </>
   )
 }

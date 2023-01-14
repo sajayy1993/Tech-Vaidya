@@ -2,10 +2,13 @@ import React from 'react'
 import './patientlogin.css'
 import patlog from '../../../Assets/img/patient555.png'
 import { Link } from 'react-router-dom'
+import Navbar from '../../../Common/Navbar/Navbar'
+import Footer from '../../../Common/Footer/Footer'
 
 const DocLogin = () => {
   return (
     <>
+    <Navbar />
         <div className='patlog-continer'>
 <div className='patlog-head'>
 <p>Patient's Login</p>
@@ -29,6 +32,7 @@ const DocLogin = () => {
   </div>
   <Link to='/registration_patient'>If you are not Registered user please signUp first(Click Here)</Link>
    </div>
+   <Footer />
     </>
   )
 }

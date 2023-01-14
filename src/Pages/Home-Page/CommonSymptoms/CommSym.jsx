@@ -3,6 +3,8 @@ import './commSyms.css'
 
 const CommSym = () => {
     return (
+        <>
+
        <div className='Comcontianer'>
         <h2>Common Symptoms</h2>
         <p>Not Avoidable</p>
@@ -41,6 +43,7 @@ const CommSym = () => {
             </div>
         </div>
        </div>
+       </>
     )
 }
 

@@ -8,9 +8,21 @@ import SelfCheck from '../SelfCheck/SelfCheck'
 import Yoga from '../Yoga/Yoga'
 import Testimonial from '../Testimonial/Testimonial'
 import FrequentQue from '../FrequentQuestion/FrequentQue'
+import { useNavigate } from 'react-router-dom'
+import Navbar from '../../../Common/Navbar/Navbar'
+import Footer from '../../../Common/Footer/Footer'
 const Home = () => {
+
+    const navigate= useNavigate();
+
+    const goToBooking =()=>{
+        
+        navigate('/doctorcard');
+    }
+
     return (
         <>
+        <Navbar />
         <div className='Section'>
             <div className='container'>
                 <div className='hero_wrapper'>
@@ -18,7 +30,7 @@ const Home = () => {
                         <h2 className='hero-heding' data-aos='zoom-in' data-aos-duration='1500'>Tech-Vaidya is care for you and your family.</h2>
                         <h2 className='subhero-heding'>Our Priority your <span className='helath-head'>Health</span></h2>
                         <div className='hero_btn'>
-                            <button className='booking_appointment'>Book Appointment</button>
+                            <button className='booking_appointment' onClick={()=>goToBooking()}>Book Appointment</button>
                         </div>
                     </div>
                     <div className='hero_img'>
@@ -61,6 +73,7 @@ const Home = () => {
      <Yoga />
      <Testimonial />
      <FrequentQue />
+     <Footer />
 </>
     )
 }

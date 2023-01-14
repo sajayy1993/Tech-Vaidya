@@ -1,9 +1,14 @@
 import React from 'react'
 import './doctorsearch.css'
 import SuperDoc from '../../../Assets/img/superDocc.png'
+import Footer from '../../../Common/Footer/Footer'
+import Navbar from '../../../Common/Navbar/Navbar'
 
 const DoctorSearch = () => {
   return (
+    <>
+
+ <Navbar />
     <div className='section-container' >
       <div className='docsearch-main'>
         <input type='text' placeholder='Find Doctor.....' />
@@ -307,6 +312,8 @@ const DoctorSearch = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

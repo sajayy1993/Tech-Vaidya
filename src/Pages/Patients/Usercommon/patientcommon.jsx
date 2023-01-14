@@ -2,6 +2,8 @@ import React from 'react'
 import './patientcommon.css'
 import Compat from '../../../Assets/img/patient22.png'
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../../../Common/Navbar/Navbar';
+import Footer from '../../../Common/Footer/Footer';
 
 const Common = () => {
 
@@ -15,6 +17,7 @@ const Common = () => {
    
   return (
     <>
+    <Navbar />
         <div className='com-Doc'>
         <h2>Patient's Login/Register</h2>
             <div className='comDoc-main'>
@@ -29,6 +32,7 @@ const Common = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </>
   )
 }

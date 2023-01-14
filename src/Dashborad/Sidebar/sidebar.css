@@ -1,0 +1,98 @@
+.sidebar{
+flex: 1;
+border-right: 0.5px solid lightgrey;
+min-height: 100vh;
+background-color: white;
+}
+
+.top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top .logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #6439ff;
+}
+
+.sidebar hr{
+    height: 0;
+    border: 0.5px solid lightgrey;
+}
+
+.center{
+padding-left:30px;
+
+}
+
+.center ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.center ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.center ul li:hover{
+    background-color: #ece8ff;
+}
+
+.center ul li .icon{
+    font-size: 20px;
+    color: #7451f8;
+}
+
+.center ul li span{
+  font-size: 18px; 
+  font-weight: 600; 
+  color: rgb(99, 97, 97);
+  margin-left: 10px;
+}
+
+.bottom{
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.bottom ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bottom ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.bottom ul li:hover{
+    background-color: #ffa1a1;
+}
+
+
+.bottom ul li .icon{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e61d1d;
+}
+
+.bottom ul li span{
+    font-size: 18px; 
+    font-weight: 600; 
+    color: rgb(99, 97, 97);
+    margin-left: 10px;
+  }
+  
