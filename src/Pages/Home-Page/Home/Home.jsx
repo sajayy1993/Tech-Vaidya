@@ -17,7 +17,7 @@ const Home = () => {
 
     const goToBooking =()=>{
         
-        navigate('/doctorcard');
+        navigate('/patientcommon_L&R');
     }
 
     return (

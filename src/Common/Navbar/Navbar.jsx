@@ -1,10 +1,26 @@
 import React from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import './Navbar.css'
+import { useAuth } from '../../Context/auth'
+import {toast} from 'react-toastify'
+
 
 const Navbar = () => {
 
+  const [auth,setAuth] =useAuth();
+
    const navigate = useNavigate();
+
+   const goToLogout=()=>{
+    setAuth({
+      ...auth,
+      user:null,
+      token:''
+    })
+    localStorage.removeItem('auth')
+    navigate("/")
+    toast.success('Logout Successfully');
+   }
   const goToLogin =()=>{
    navigate ("/patientcommon_L&R");
   }
@@ -31,15 +47,24 @@ const Navbar = () => {
     </div>
     <div className='right-nav'>
     <div className='profile-nav'>
-    <div className='sign-btn'>
+    {
+      !auth.user?(<>
+        <div className='sign-btn'>
             <button onClick={()=>goToLogin()}>As Patient</button>
         </div>
         <div className='regis-btn'>
             <button  onClick={()=>goToRegis()}>As Doctor</button>
         </div>
      <div className='profile'>
-     <img src='https://cdn3d.iconscout.com/3d/premium/preview/doctor-5565584-4715129.png?w=0&h=700&f=jpeg' alt='logo-profile' />
+      <Link style={{color:'#6f55f2'}}>Help!</Link>
     </div>
+      </>):(<>
+        <div className='regis-btn'>
+            <button  onClick={()=>goToLogout()}>Logout</button>
+        </div>
+      </>)
+    }
+    
     </div>
     </div>
    </div>

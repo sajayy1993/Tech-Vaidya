@@ -1,0 +1,192 @@
+.profile-container{
+display: flex;
+flex: 2;
+}
+.profile-maincontainer{
+    flex: 6;
+}
+
+.form-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.form-main .form-layout{
+    width: 50%;
+    height: 750px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1.5px solid rgb(83, 83, 83);
+
+}
+
+.form-container{
+    width: 600px;
+    height: 650px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.form-container .userdetails-form{
+    width: 520px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.form-container .userdetails-form input{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.336);
+    border-bottom: 1px solid rgb(223, 221, 221);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    color:  rgba(82, 81, 81, 0.986);
+
+}
+
+.userdetails-form .udergender{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userdetails-form .udergender input{
+height: 15px;
+display: flex;
+margin-left: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.userform-btn{
+    width:200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FFFF;
+    color: #056a99; 
+    border: 1.5px solid  #056a99;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+label{
+    color:#056a99 ;
+    font-weight: 500;
+}
+
+.userform-btn:hover{
+    color: #FFFF;
+    background-color: #056a99;
+}
+
+.certification{
+    width: 600px;
+    height:650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.certification{
+padding: 20px;
+}
+.certification-part1 .userdetails-form{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.certification-part2 .userdetails-form{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.certification-part3 .userdetails-form{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.certi-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.certi-btn .plus-btn{
+    width: 35px;
+    height: 35px;
+    background-color:#056a99;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+ margin-left: 400px;
+    color: #FFFF;
+    cursor: pointer;
+}
+.certi-btn .minuss-btn{
+    width: 35px;
+    height: 35px;
+    background-color:rgb(80, 79, 79);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: #FFFF;
+    cursor: pointer;
+    margin-left: 450px;
+}
+
+.certi-btn .minus-btn{
+    width: 35px;
+    height: 35px;
+    background-color:rgb(80, 79, 79);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    color: #FFFF;
+    cursor: pointer;
+
+}
+
+.certification-part4 .userdetails-form{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+

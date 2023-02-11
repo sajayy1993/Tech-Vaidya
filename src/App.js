@@ -17,7 +17,10 @@ import DashAppointment from './Dashborad/AppointmentsD/DashAppointment';
 import Profile from './Dashborad/Profille/Profile';
 import Payment from './Dashborad/Payment/Payment';
 import Patients from './Dashborad/Patients/Patients';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Blog from './Pages/Blog/Blog';
+import PrivateRoute from './Routes/Private';
 
 
 function App() {
@@ -28,6 +31,7 @@ Aos.init()
 
   return (
    <>
+   
    <Routes>
 
    <Route path={'/'} element={<Home/>} />
@@ -40,15 +44,17 @@ Aos.init()
    <Route path={'/doctor'} element={<DoctorSearch/>} />
    <Route path={'/doctorcard'} element={<Dcotorcard/>} />
    <Route path={'/doctorprofile'} element={<Docprofile/>} />
-   <Route path={'/dashboard'} element={<Dashboard/>} />
+   
+     <Route path={'/dashboard'}  element={<Dashboard/>} />
    <Route path={'/appointment'} element={<DashAppointment/>} />
    <Route path={'/profile'} element={<Profile/>} />
    <Route path={'/payments'} element={<Payment/>} />
    <Route path={'/patients'} element={<Patients/>} />
+   <Route path={'/blog'} element={<Blog />} />
 
 
    </Routes>
-
+<ToastContainer/>
    </>
   );
 }

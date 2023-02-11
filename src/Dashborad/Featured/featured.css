@@ -1,0 +1,31 @@
+.featured{
+    flex: 2;
+    -webkit-box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:2px 4px 10px 1px rgba(0,0,0,0.47) ;
+    padding: 10px;
+}
+.top-fetured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+
+.top-fetured .title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bottom-fetured{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-fetured .featuredChart{
+width: 150px;
+height: 150px;
+}

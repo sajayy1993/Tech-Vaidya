@@ -73,3 +73,24 @@ border: 1.8px solid  #6439ff;
     top: -8px;
     left: 10px;
 }
+
+.logout-btn{
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100px;
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer; 
+   background-color: #6f55f2;
+   color: #ffffff;
+}
+
+.logout-btn:hover{
+    background-color: #ffffff;
+    color:  #6f55f2;
+    border: 1.5px solid #6f55f2;
+    font-weight: 500;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './widget.css'
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';import { border } from '@mui/system';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 ;
 
 const Widget = ({type}) => {
@@ -14,7 +14,8 @@ const Widget = ({type}) => {
             isMoney:false,
             count: '50',
             link:'See All',
-            color:'rgba(255,0,0,0.2)',
+            color:'#463E97',
+            bgcolor:'#C5CDF7',
             icon:(
                 <KeyboardArrowUpIcon className='icon' />
             )
@@ -26,7 +27,8 @@ const Widget = ({type}) => {
             title:'Total Patients',
             isMoney:false,
             count:'1200',
-            color:'rgba(218,165,32,0.2)',
+            bgcolor:'#CDF7C5',
+            color:'#62BF99',
             link:'See All',
             icon:(
                 <KeyboardArrowUpIcon className='icon' />
@@ -39,7 +41,8 @@ const Widget = ({type}) => {
             title:'Over All Payments',
             isMoney:true,
             count:'12K',
-            color:'rgba(255,0,0,0.2)',
+            bgcolor:'#F5DCFA',
+            color:'#DE6399',
             link:'See All',
             icon:(
                 <KeyboardArrowUpIcon className='icon' />
@@ -52,7 +55,8 @@ const Widget = ({type}) => {
             title:'Delay Schedule',
             isMoney:false,
             count:'3',
-            color:'rgba(255,0,0,0.2)',
+            bgcolor:'#CEEBDF',
+            color:'#72A5AD',
             link:'See All',
             icon:(
                 <KeyboardArrowUpIcon className='icon' />
@@ -65,13 +69,13 @@ const Widget = ({type}) => {
     }
 
   return (
-    <div className='widget'>
+    <div className='widget' style={{background:data.bgcolor}}>
         <div className='widget-top'>
-<span className='title'>{data.title}</span>
+<span className='title' style={{color:data.color}}>{data.title}</span>
 
         </div>
         <div className='widget-bottom'>
-        <span className='Count' style={{width:'30px', height:'30px',color:'crimson',borderRadius:'5px', alignItems:'center', display:'flex'}}>{data.count}<span>{data.icon}</span></span>
+        <span className='Count'style={{color:'rgb(68, 68, 68)'}} >{data.count}</span>
         <span className='link'>{data.link}</span>
         </div>
     </div>

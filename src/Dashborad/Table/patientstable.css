@@ -1,0 +1,22 @@
+.patient-table .status{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.Approved{
+color: green;
+background-color: rgba(0, 128, 0, 0.233);
+}
+
+ .Pending{
+ 
+    color: rgb(153, 112, 9);
+    background-color: rgba(207, 207, 9, 0.486);
+    }
+
+    
+ .Rejected{
+    color: rgb(112, 5, 5);
+    background-color: rgba(207, 9, 9, 0.185);
+    }

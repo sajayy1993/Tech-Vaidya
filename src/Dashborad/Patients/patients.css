@@ -1,0 +1,7 @@
+.patientsUser-list{
+    display: flex;
+    width: 100%;
+}
+ .patientsUser-listContainer{
+    flex: 6;
+}
